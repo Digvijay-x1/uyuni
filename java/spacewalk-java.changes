@@ -2,6 +2,8 @@
 Tue Dec 09 13:45:08 CET 2025 - michael.calmer@suse.com
 
 - version 5.2.6-0
+  * Fix misleading message on system groups tab when no groups are
+    selected
   * Fix stacktrace after hardware refresh
   * Fix: Broken URL in API docs (bsc#1244177)
   * Fix a bug in apidoc of syncPeripheralChannels (bsc#1250906)

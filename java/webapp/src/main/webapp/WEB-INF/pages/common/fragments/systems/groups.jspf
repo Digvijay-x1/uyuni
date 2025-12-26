@@ -47,8 +47,7 @@
         </c:if>
     </rhn:require>
     <rhn:csrf />
-        <rl:list emptykey="assignedgroups.jsp.nogroups"
-         alphabarcolumn="name">
+        <rl:list alphabarcolumn="name">
                         <rl:decorator name="PageSizeDecorator"/>
 
                  <rhn:require acl="user_role(org_admin) or authorized_for(systems.groups)">
